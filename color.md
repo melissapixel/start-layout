@@ -1,0 +1,8 @@
+--------PINK STACK COLOR------
+ #FF4D85
+ #FF007F
+ #FFC2D6;
+ #FFF4F8
+ #99004D
+ #2A0818;
+ #7A4B62
