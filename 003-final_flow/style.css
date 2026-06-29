@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flow-root;
+    background: #99004D;
+}
+
+.logo {
+    float: left;
+}
+.nav {
+    float: right;
+}
+
+
+.left_side {
+    float: left;
+    width: 200px;
+    background: #7A4B62;
+}
+
+.right_side {
+    float: right;
+    width: 200px;
+    background: #7A4B62;
+}
+
+
+.card {
+    float: left;
+    background: #FFF4F8;
+    width: 20%;
+    height: 50px;
+    margin-right: 4%;
+}
+
+.footer {
+    clear: both;
+}
+.col {
+    width: 25%;
+    float: left;
+    background: #FFF4F8;
+}
