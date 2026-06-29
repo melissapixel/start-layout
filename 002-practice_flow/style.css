@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box_1 {
+    margin: 30px;
+    background: red;
+}
+
+.box_2 {
+    margin: 50px;
+    background: blue;
+}
+
+.container {
+    background: gray;
+    padding: 20px;
+    height: auto;
+    display: flow-root;
+}
+
+.float {
+    width: 100px;
+    height: 100px;
+    background: green;
+    float: left;
+    margin-right: 20px;
+}
+
+.box_3 {
+    background: yellow;
+    margin: 30px;
+    clear: both;
+}
