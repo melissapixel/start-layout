@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 200px;
+    margin: 0px 20px;
+}
+
+.title {
+    background: #FFC2D6;
+}
+
+.content {
+    margin: 20px;
+}
+.img_left {
+    float: left;
+}
+.img_right {
+    float: right;
+}
