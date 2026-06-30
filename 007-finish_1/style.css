@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 60px;
+    background: #FFF4F8;
+}
+.logo {
+    float: left;
+    
+    img {
+        width: 40px;
+    }
+
+}
+.nav {
+    float: right;
+}
+
+.container {
+    display: flow-root;
+}
+.sidebar {
+    width: 250px;
+    padding: 20px;
+    float: left;
+}
+article {
+    display: flow-root;
+    img {
+        width: 150px;
+        border: 2px solid;
+    }
+
+    .article_img__left {
+        float: left;
+    }
+    .article_img__right {
+        float: right;
+    }
+}
+
+.footer {
+    display: flow-root;
+    .col {
+        width: 33.3%;
+        float: left;
+    }
+}
