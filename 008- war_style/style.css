@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    margin: 20px;
+    background: #FFC2D6;
+    display: flow-root;
+    width: 400px;
+
+    .card_container {
+        margin: 20px;
+        display: flow-root;
+
+        img {
+            width: 200px;
+            border: 2px solid;
+            float: left;
+        }
+
+        .container_data {
+            margin-left: 250px;
+
+            .card_button {
+                margin-top: 100px;
+            }
+        }
+    }
+}
+
+.card:hover {
+    background: #7A4B62;
+    button {
+        color: rgb(75, 0, 70);
+    }
+}
+.card--active {
+    background: #99004D;
+    button {
+        color: rgb(61, 0, 83);
+    }
+}
+.card.card--disabled {
+    background: #7c7c7c;
+    button {
+        color: #5b5b5b;
+    }
+}
