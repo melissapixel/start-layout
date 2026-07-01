@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+.header {
+    height: 60px;
+    background: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+
+    .sidebar {
+        width: 200px;
+        background: #FFF4F8;
+    }
+    .content {
+        flex-grow: 1;
+    }
+}
+
+.footer {
+    height: 60px;
+    background: #000;
+}
