@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 100px 20px;
+}
+
+.word_cont {
+    position: relative;
+
+    .tooltip {
+        /* padding-top: 20px; */
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+
+.word_cont:hover {
+    .tooltip {
+        opacity: 1;
+        visibility: visible;
+    }
+}
