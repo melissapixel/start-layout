@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 1000px;
+}
+
+.button {
+    width: 20px;
+    height: 20px;
+    background: #000;
+    border-radius: 50%;
+
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.buttons--hover {
+    opacity: 0;
+
+    position: absolute;
+    bottom: 100%;
+    padding-bottom: 10px;
+
+    .buttons {
+        padding: 10px 0px;
+    }
+}
+
+.button:hover {
+    .buttons--hover {
+        opacity: 1;
+    }
+}
